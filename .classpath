@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="com/osroyale/login/impl/|com/osroyale/" kind="src" path="tarnish-client/src/main/java"/>
+	<classpathentry excluding="login/impl/" kind="src" path="tarnish-client/src/main/java/com/osroyale"/>
+	<classpathentry kind="src" path="tarnish-client/src/main/java/com/osroyale/login/impl"/>
+	<classpathentry kind="src" path="tarnish-game/plugins"/>
+	<classpathentry excluding="com/osroyale/content/activity/impl/|com/osroyale/game/world/entity/mob/player/|com/osroyale/content/itemaction/impl/|com/osroyale/game/world/entity/combat/projectiledata/|com/osroyale/content/activity/record/" kind="src" path="tarnish-game/src/main/java"/>
+	<classpathentry kind="src" path="tarnish-game/src/main/java/com/osroyale/content/activity/impl"/>
+	<classpathentry kind="src" path="tarnish-game/src/main/java/com/osroyale/content/activity/record"/>
+	<classpathentry kind="src" path="tarnish-game/src/main/java/com/osroyale/content/itemaction/impl"/>
+	<classpathentry kind="src" path="tarnish-game/src/main/java/com/osroyale/game/world/entity/combat/projectiledata"/>
+	<classpathentry kind="src" path="tarnish-game/src/main/java/com/osroyale/game/world/entity/mob/player"/>
+	<classpathentry kind="lib" path="tarnish-client/allatori/allatori.jar"/>
+	<classpathentry kind="lib" path="tarnish-client/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="tarnish-client/libs/allatori-annotations.jar"/>
+	<classpathentry kind="lib" path="tarnish-client/libs/SwiftFUP-client-1.9.1.jar"/>
+	<classpathentry kind="lib" path="tarnish-game/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
