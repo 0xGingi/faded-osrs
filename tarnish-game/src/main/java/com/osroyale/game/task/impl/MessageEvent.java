@@ -4,7 +4,6 @@ import com.osroyale.Config;
 import com.osroyale.content.triviabot.TriviaBot;
 import com.osroyale.game.task.Task;
 import com.osroyale.game.world.World;
-import com.osroyale.net.discord.Discord;
 import com.osroyale.util.Utility;
 
 /**

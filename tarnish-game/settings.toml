@@ -26,22 +26,22 @@ max_bots = 10
 npc_definition_limit = 32767
 item_definition_limit = 28000
 combat_modifier = 1250.0
-agility_modifier = 3000.0
-cooking_modifier = 3000.0
-crafting_modifier = 3000.0
-firemaking_modifier = 3000.0
-fletching_modifier = 3000.0
-herblore_modifier = 3000.0
-hunter_modifier = 3000.0
-magic_modifier = 3000.0
-mining_modifier = 3000.0
-prayer_modifier = 3000.0
+agility_modifier = 100.0
+cooking_modifier = 5.0
+crafting_modifier = 5.0
+firemaking_modifier = 5.0
+fletching_modifier = 5.0
+herblore_modifier = 100.0
+hunter_modifier = 100.0
+magic_modifier = 1250.0
+mining_modifier = 5.0
+prayer_modifier = 1250.0
 runecrafting_modifier = 3000.0
-slayer_modifier = 3000.0
-woodcutting_modifier = 3000.0
-thieving_modifier = 3000.0
-smithing_modifier = 3000.0
-fishing_modifier = 3000.0
+slayer_modifier = 5.0
+woodcutting_modifier = 5.0
+thieving_modifier = 5.0
+smithing_modifier = 5.0
+fishing_modifier = 5.0
 farming_modifier = 3000.0
 
 [network]
@@ -66,10 +66,7 @@ forum_db_url = ""
 forum_db_user = ""
 forum_db_pass = ""
 
-[discord]
-token = ""
-
 [postgre]
-postgre_url = ""
-postgre_user = ""
-postgre_pass = ""
+postgre_url =
+postgre_user =
+postgre_pass =

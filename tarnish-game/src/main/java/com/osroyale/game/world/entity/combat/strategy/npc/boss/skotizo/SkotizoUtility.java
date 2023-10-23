@@ -6,7 +6,6 @@ import com.osroyale.game.world.entity.mob.Mob;
 import com.osroyale.game.world.entity.mob.npc.Npc;
 import com.osroyale.game.world.entity.mob.player.Player;
 import com.osroyale.game.world.position.Position;
-import com.osroyale.net.discord.DiscordPlugin;
 import com.osroyale.util.Utility;
 
 /**
@@ -25,7 +24,6 @@ public class SkotizoUtility {
         skotizo.definition.setAggressive(true);
         skotizo.speak("Darkness is here to penetrate your souls!");
         World.sendMessage("<icon=6><col=8714E6> Skotizo has just spawned! He is located at " + data.location + "!");
-        DiscordPlugin.sendSimpleMessage("Skotizo has entered the wilderness! He is located at " + data.location + "!");
         return skotizo;
     }
 

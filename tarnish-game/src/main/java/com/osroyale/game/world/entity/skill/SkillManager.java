@@ -29,7 +29,6 @@ import com.osroyale.game.world.entity.mob.Mob;
 import com.osroyale.game.world.entity.mob.UpdateFlag;
 import com.osroyale.game.world.entity.mob.player.Player;
 import com.osroyale.game.world.entity.mob.prayer.Prayer;
-import com.osroyale.net.discord.DiscordPlugin;
 import com.osroyale.net.packet.out.*;
 import com.osroyale.util.Utility;
 
@@ -353,7 +352,6 @@ public class SkillManager {
                 if (newMax == 99 && !combat) {
                     World.sendMessage(
                             "<col=7B44B3>Tarnish: <col=" + player.right.getColor() + ">" + player.getName() + " </col>has just reached level 99 in <col=7B44B3>" + Skill.getName(skill.getSkill()) + "</col> with a prestige of " +player.prestige.totalPrestige + "!");
-                    DiscordPlugin.sendSimpleMessage(player.getName() + " has just reached level 99 in " + Skill.getName(skill.getSkill()) + "!");
                 }
             } else {
                 player.send(new SendMessage("Congratulations, you have reached " + Utility.getAOrAn(Skill.getName(skill.getSkill())) + " " + Skill.getName(skill.getSkill()) + " level of " + skill.getMaxLevel() + "."));

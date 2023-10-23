@@ -6,7 +6,6 @@ import com.osroyale.game.world.entity.mob.npc.Npc;
 import com.osroyale.game.world.entity.mob.player.Player;
 import com.osroyale.game.world.items.Item;
 import com.osroyale.game.world.object.CustomGameObject;
-import com.osroyale.net.discord.DiscordPlugin;
 import com.osroyale.util.Stopwatch;
 import com.osroyale.util.Utility;
 
@@ -50,7 +49,6 @@ public class BloodMoneyChest {
         active = true;
 
         World.sendMessage("<icon=0><col=FF0000> Blood money chest has spawned at: " + data.name + ".");
-        DiscordPlugin.sendSimpleMessage("Blood money chest has spawned at " + data.name + "!");
     }
 
     /** Handles finishing the blood money chet. */
@@ -64,7 +62,6 @@ public class BloodMoneyChest {
         if (viewer != null) {
             if (unlocked) {
                 World.sendMessage("<icon=0><col=FF0000> Blood money chest was unlocked by " + viewer.getName() + "!");
-                DiscordPlugin.sendSimpleMessage("Blood money chest has been unlocked by " + viewer.getName() + "!");
                 viewer.inventory.addOrDrop(new Item(20608));
             }
 

@@ -143,7 +143,7 @@ public final class Config {
     public static boolean DOUBLE_EXPERIENCE = false;
 
     /** The OS Royale community discord token. */
-    public static final String DISCORD_TOKEN;
+/**    public static final String DISCORD_TOKEN; */
 
     /** The development state flag. (Always make sure you run the official server with this disabled!) */
     public static boolean SERVER_DEBUG;
@@ -327,7 +327,7 @@ public final class Config {
             FORUM_DB_URL = parser.getString("website.forum_db_url");
             FORUM_DB_USER = parser.getString("website.forum_db_user");
             FORUM_DB_PASS = parser.getString("website.forum_db_pass");
-            DISCORD_TOKEN = parser.getString("discord.token");
+ /**           DISCORD_TOKEN = parser.getString("discord.token"); */
             COMBAT_MODIFICATION = parser.getDouble("game.combat_modifier");
             AGILITY_MODIFICATION = parser.getDouble("game.agility_modifier");
             COOKING_MODIFICATION = parser.getDouble("game.cooking_modifier");

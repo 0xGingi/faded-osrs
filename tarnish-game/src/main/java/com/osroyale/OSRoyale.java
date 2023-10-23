@@ -36,8 +36,6 @@ import com.osroyale.game.world.entity.mob.player.profile.ProfileRepository;
 import com.osroyale.game.world.items.ItemDefinition;
 import com.osroyale.io.PacketListenerLoader;
 import com.osroyale.net.LoginExecutorService;
-import com.osroyale.net.discord.Discord;
-import com.osroyale.net.discord.DiscordPlugin;
 import com.osroyale.util.GameSaver;
 import com.osroyale.util.Stopwatch;
 import com.osroyale.util.parser.impl.*;
@@ -118,9 +116,7 @@ public final class OSRoyale {
         startupService.submit(ItemActionRepository::declare);
         startupService.submit(ClueScrollPlugin::declare);
         startupService.submit(MysteryBox::load);
-        startupService.submit(Discord::start);
         startupService.submit(GameSaver::load);
-        DiscordPlugin.startUp();
         startupService.submit(PreloadRepository::declare);
         startupService.submit(TradingPost::loadAllListings);
         startupService.submit(TradingPost::loadItemHistory);
