@@ -1,0 +1,91 @@
+{
+    "id": 25492,
+    "name": "Accursed sceptre (a)",
+    "last_updated": "2023-04-25",
+    "incomplete": false,
+    "members": false,
+    "tradeable": false,
+    "tradeable_on_ge": false,
+    "stackable": false,
+    "stacked": null,
+    "noted": false,
+    "noteable": false,
+    "linked_id_item": null,
+    "linked_id_noted": null,
+    "linked_id_placeholder": null,
+    "placeholder": false,
+    "equipable": true,
+    "equipable_by_player": true,
+    "equipable_weapon": true,
+    "cost": 120000,
+    "lowalch": null,
+    "highalch": null,
+    "weight": 2.267,
+    "buy_limit": null,
+    "quest_item": false,
+    "release_date": "2023-04-12",
+    "duplicate": false,
+    "examine": "A very old and powerful stick, enhanced with the power of shadow magic.",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB1klEQVR4XuVWwUrDQBDt/oEnL7kEcggUCqUQJJRCS5EiLcXSYpDioZaCCIIgiCCIHgUP4lX81rFvlskmW/XUzQZ88MiymXZeZt5s0mj8bygydAo7STGx4V3ySPfJM3WDvktRilatK5pE8zzxRXPDe7iC5/GKiTXiksOU49ph6EKU4mRIBM6ijM7iJRNrUPZNZbQYR4IAnQQJB8GIRuGEKWJwD1fsmco4axmgOHl0EOcVkFbKGlUsCsTaoahiAs2P4Reb+LbzUBKFVkoLTbX2Cm1iJICAl+4bvQ8+adDr0VGSUKfdpqf0le+BIkjEOBGEJ4c/cEWbNq0bXkMUGAYB74FifkfVARQ/tYwyGEcRtZpN6qYpr4utrESQVMgk0aJEjGmNKsU5EwQPybmjK6H3dxOXBZn/2CsUewOCcA5Jwl0xJv7n/b3BtAznELyEw9G8SnbhVMx8OmXzYpKkMn9XyBm20zWblaZIBBRp/8ohFFfGFmJHVQRFl8slnY7HuSA7okJsxzzLcs94rwx8UwMx2rTFafIq5nq95jYd9/u+xQDbg2+x4Ld2LcRgkuxW2VEVQZ/C+MASD3msjm6T/fngVUwNpgnQnjkZDuvgGYG3t/Xv8OyZeuEb1eGl/LwRcLMAAAAASUVORK5CYII=",
+    "wiki_name": "Shadow ancient sceptre",
+    "wiki_url": "https://oldschool.runescape.wiki/w/Shadow_ancient_sceptre",
+    "equipment": {
+        "attack_stab": 20,
+        "attack_slash": -1,
+        "attack_crush": 50,
+        "attack_magic": 20,
+        "attack_ranged": 0,
+        "defence_stab": 2,
+        "defence_slash": 3,
+        "defence_crush": 1,
+        "defence_magic": 15,
+        "defence_ranged": 0,
+        "melee_strength": 60,
+        "ranged_strength": 0,
+        "magic_damage": 5,
+        "prayer": -1,
+        "slot": "weapon",
+        "requirements": null
+    },
+    "weapon": {
+        "attack_speed": 4,
+        "weapon_type": "staff",
+        "stances": [
+            {
+                "combat_style": "bash",
+                "attack_type": "crush",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "pound",
+                "attack_type": "crush",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "focus",
+                "attack_type": "crush",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            },
+            {
+                "combat_style": "spell",
+                "attack_type": "spellcasting",
+                "attack_style": "magic",
+                "experience": "magic",
+                "boosts": null
+            },
+            {
+                "combat_style": "spell (defensive)",
+                "attack_type": "defensive casting",
+                "attack_style": "magic",
+                "experience": "magic and defence",
+                "boosts": null
+            }
+        ]
+    }
+}
