@@ -1,6 +1,6 @@
-# tarnished-osrs
+# faded-osrs
 
-Source: https://rune-server.org/runescape-development/rs2-server/downloads/705145-tarnish.html
+Original Source: https://rune-server.org/runescape-development/rs2-server/downloads/705145-tarnish.html
 
 ## How To Play
 open the .jar with Java
