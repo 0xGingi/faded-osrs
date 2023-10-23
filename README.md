@@ -9,7 +9,7 @@ Login with any user/pass
 
 ## Compile
 
-### Server - Java 19 Corrett
+### Server - Java 19 Corretto
 
 ```./gradlew build```
 
