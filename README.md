@@ -1,6 +1,6 @@
 # faded-osrs
 
-Original Source: https://rune-server.org/runescape-development/rs2-server/downloads/705145-tarnish.html
+OSRS Private Server with PvP, Bossing, 5X-3000X XP depending on skill, Teleport Menu, and much more
 
 ## How To Play
 open the .jar with Java
@@ -22,3 +22,7 @@ Login with any user/pass
 ```./gradlew build```
 
  Client will be in build/libs/
+
+### Credits
+
+Original Source: https://rune-server.org/runescape-development/rs2-server/downloads/705145-tarnish.html
